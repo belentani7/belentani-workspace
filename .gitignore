@@ -1,0 +1,6 @@
+.aider*
+claude/
+.pnpm-store/
+dsh-web.log
+lingua-aberta-tmp/
+secure-t-tmp/

@@ -1,0 +1,1 @@
+C:/Users/USER/varios config user/.zshrc
