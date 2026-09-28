@@ -4,32 +4,30 @@ Espacio de trabajo de Pedro Belentani (`belentani7`). Repositorio **privado**.
 
 Aquí vive configuración de editor, automatización de GitHub y scripts de
 mantenimiento del equipo. **No** contiene código de aplicación, ni documentos
-personales, ni historiales de sesión: cada proyecto tiene su propio repositorio.
+personales, ni PDFs ni claves: cada proyecto tiene su propio repositorio.
 
 ## 📦 Contenido
 
-22 ficheros versionados:
+38 ficheros versionados, agrupados:
 
-| Ruta | Qué es |
-|---|---|
-| `.gitignore` | Exclusiones: secretos, documentos personales, medios |
-| `.editorconfig` | Formato de código y fin de línea |
-| `.vscode/` | 7 ficheros de extensiones, launch y tareas por lenguaje |
-| `.github/workflows/ci.yml` | Auditoría de higiene en cada push y PR |
-| `.github/pull_request_template.md` | Plantilla de pull request |
-| `README.md`, `CONTRIBUTING.md`, `SECURITY.md` | Documentación del repositorio |
-| `PRODUCTION_CHECKLIST.md` | Criterios de publicación de un proyecto |
-| `PROTOCOLO-SDD-MAESTRO.md`, `PROTOCOLO_COMPLETO_BELENTANI_VISUAL_ENGINE.md` | Método de trabajo |
-| `WinPurge.ps1`, `fix-keyboard-p30.ps1`, `test-teclado.ps1`, `mantenimiento.bat` | Scripts de mantenimiento de Windows |
-| `.freebuff/project-id` | Identificador de proyecto Freebuff |
+| Grupo | Ficheros | Qué es |
+|---|---|---|
+| Documentación | `README.md`, `CONTRIBUTING.md`, `SECURITY.md`, `PRODUCTION_CHECKLIST.md`, `PROTOCOLO-SDD-MAESTRO.md`, `PROTOCOLO_COMPLETO_BELENTANI_VISUAL_ENGINE.md` | Guías, protocolo E0–E6 y criterios de publicación |
+| Auditoría CI | `.github/workflows/ci.yml`, `.github/pull_request_template.md` | Higiene automática en push y PR (secretos, JSON, HTML) |
+| Informes 2026-09 | `INFORME_belentani7_2026-09-28.md`, `REPORTE-LIMPIEZA-REPOS-2026-09-28.md`, `REPORTE_ESCRITORIO_2026-09-28.md` | Auditoría de repos, limpieza y estado del Escritorio |
+| Mantenimiento Windows | `WinPurge.ps1`, `PurgaDefinitivaCLIs.ps1`, `Purgar-TodoCache.ps1`, `Buscar-Duplicados.ps1`, `fix-keyboard-p30.ps1`, `test-teclado.ps1`, `mantenimiento.bat`, `Reset-OpenCode.bat` | Limpieza y ajustes del equipo |
+| Asistentes locales | `Agente de voz.cmd`, `JARVIS.cmd`, `START-AUTONOMIA.ps1` | Lanzadores de voz/asistentes |
+| Qwen local (offline) | `download-qwen-zip.ps1`, `download-qwen-zip.sh`, `download_qwen2.py`, `qwen2_local_runner.py`, `run_qwen2.bat`, `install_offline.ps1` | Descarga y ejecución de Qwen2 en local |
+| Editor | `.editorconfig`, `.vscode/` (7 ficheros) | Formato y tareas por lenguaje |
+| Base | `.gitignore`, `.freebuff/project-id` | Exclusiones de seguridad y metadato Freebuff |
 
-## 🔗 Clonar
+## 🚀 Clonar
 
 ```bash
 git clone https://github.com/belentani7/belentani-workspace.git
 ```
 
-## 🔍 Auditoría en CI
+## 🛡️ Auditoría en CI
 
 `.github/workflows/ci.yml` se ejecuta en cada push a `main` y en cada PR:
 
@@ -39,7 +37,7 @@ git clone https://github.com/belentani7/belentani-workspace.git
   (claves de OpenAI, Google, AWS, Anthropic, Slack, claves PEM, tokens de GitHub).
 - **Informativo** — JSON válido y HTML con `<title>` y meta description.
 
-## 📋 Protocolo
+## 🧭 Protocolo
 
 Este repo sigue **protocolo-etapas (E0-E6)** — SDD para agentes:
 
@@ -51,10 +49,10 @@ Este repo sigue **protocolo-etapas (E0-E6)** — SDD para agentes:
 6. **E5 Ship** → Commit + Push + URL verificada
 7. **E6 Learn** → Memoria + cerrar sesión
 
-## 🌐 Idiomas
+## 🌍 Idiomas
 
 Orden fijo: **PT > ES > EN > CA** — `["pt","es","en","ca"]`
 
 ---
 
-*Generado automáticamente via protocolo-etapas E5 Ship*
+*Actualizado 2026-09-28 · protocolo-etapas E5 Ship*
