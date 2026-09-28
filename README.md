@@ -8,13 +8,13 @@ personales, ni PDFs ni claves: cada proyecto tiene su propio repositorio.
 
 ## 📦 Contenido
 
-38 ficheros versionados, agrupados:
+39 ficheros versionados, agrupados:
 
 | Grupo | Ficheros | Qué es |
 |---|---|---|
 | Documentación | `README.md`, `CONTRIBUTING.md`, `SECURITY.md`, `PRODUCTION_CHECKLIST.md`, `PROTOCOLO-SDD-MAESTRO.md`, `PROTOCOLO_COMPLETO_BELENTANI_VISUAL_ENGINE.md` | Guías, protocolo E0–E6 y criterios de publicación |
 | Auditoría CI | `.github/workflows/ci.yml`, `.github/pull_request_template.md` | Higiene automática en push y PR (secretos, JSON, HTML) |
-| Informes 2026-09 | `INFORME_belentani7_2026-09-28.md`, `REPORTE-LIMPIEZA-REPOS-2026-09-28.md`, `REPORTE_ESCRITORIO_2026-09-28.md` | Auditoría de repos, limpieza y estado del Escritorio |
+| Informes 2026-09 | `INFORME_belentani7_2026-09-28.md`, `REPORTE-LIMPIEZA-REPOS-2026-09-28.md`, `REPORTE_ESCRITORIO_2026-09-28.md`, `REPORTE-SUBIDA-REPOS-DESKTOP-2026-09-28.md` | Auditoría de repos, limpieza, estado del Escritorio y esta subida |
 | Mantenimiento Windows | `WinPurge.ps1`, `PurgaDefinitivaCLIs.ps1`, `Purgar-TodoCache.ps1`, `Buscar-Duplicados.ps1`, `fix-keyboard-p30.ps1`, `test-teclado.ps1`, `mantenimiento.bat`, `Reset-OpenCode.bat` | Limpieza y ajustes del equipo |
 | Asistentes locales | `Agente de voz.cmd`, `JARVIS.cmd`, `START-AUTONOMIA.ps1` | Lanzadores de voz/asistentes |
 | Qwen local (offline) | `download-qwen-zip.ps1`, `download-qwen-zip.sh`, `download_qwen2.py`, `qwen2_local_runner.py`, `run_qwen2.bat`, `install_offline.ps1` | Descarga y ejecución de Qwen2 en local |
