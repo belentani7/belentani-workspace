@@ -168,3 +168,8 @@ RESUMEN_ORGANIZACION.txt
 [0-9]*.csv
 *cache*.csv
 Reporte_*.csv
+
+# --- CLAVES API SUELTAS: nunca versionar (added 2026-09-28) ---
+*API-KEYS*
+*API_KEYS*
+*api-keys*
