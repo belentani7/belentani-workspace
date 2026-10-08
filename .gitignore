@@ -173,6 +173,33 @@ Reporte_*.csv
 *API-KEYS*
 *API_KEYS*
 *api-keys*
+# Configuracion de DSH con las llaves en claro (added 2026-09-30).
+# Es una copia de trabajo personal: la version que usa el arranque vive en
+# C:\Users\USER\.dsh\.credentials.yaml, fuera de todo repositorio.
+settings.yaml
+*.credentials.yaml
+
+# --- EXPORTACIONES DE EXPEDIENTE EN MARKDOWN (added 2026-09-30) ---
+# Exportes de documentos privados a .md en la raiz del escritorio. Se bloquean
+# por FORMA del nombre (mayusculas + separador numerico), no por el nombre del
+# caso: escribir el nombre aqui crearia la exposicion que la regla evita.
+# Verificado: no captura ningun .md de proyecto ya versionado.
+[A-Z]*_[0-9]*-[0-9]*_*.md
+
+# --- MATERIAL DE AUDIO LOCAL (added 2026-09-30) ---
+# Grabaciones y exportaciones de audio propias: 14.851 ficheros / 9,3 GB dentro
+# del repo de trabajo. No son codigo y no deben entrar en el indice.
+MUSICA/
+
+# --- INFORME DE SITUACION LOCAL (added 2026-09-30) ---
+# Informe personal de estado en el escritorio. Documento de trabajo, no proyecto.
+INFORME-SITUACION-*.md
+INFORME-SESIONES-ANALISIS-*.md
+DIAGNOSTICO-WINDOWS-*.md
+_wifi_backup.txt
+
+# informes locales de reparacion
+INFORME-ZCODE-REPARACION-*.md
 
 # --- guardias-sinc-2026-10-08 (auto) ---
 node_modules/
